@@ -1,20 +1,45 @@
 
-Setup WebAPI Solution with Test project and .gitignore
+Notes
 
-create git repository
+Local version of the site http://localhost:59740/swagger
 
-create models (ContactUpload, Contact, Address?)
+details of work and repo https://github.com/tbirt666/UploadApplication (some notes in commits)
+
+
+Initial Thoughts / Plan
+
+- Setup WebAPI Solution with Test project and .gitignore
+
+- create git repository
+
+- create models (ContactUpload, Contact, Address?)
 
 - ContactUpload fields all set as text for inport before validation/sanitisation/mapping
 
-create Upload controller (POST) for file upload
-create services, repository (Contact, Upload)
+- create Upload controller (POST) for file upload
+- create services, repository (Contact, Upload)
 
-create frontend react app
-create react contact component for file upload form
-
-
+- create frontend react app
+- create react contact component for file upload form
 
 config settings
-
 Upload directory currently: E:\Dev\UploadApplication\UploadApplication\App_Data\Uploads in web.config 
+
+
+Still to do
+- Need to add IoC Dependancy injection
+- Need to add react.js app to hit file upload controller, and deal with Contact CRUD
+- REact File upload component/form, 
+- Need to complete the Contact Service and get Mocked unit tests and intergration tests round it
+
+
+Possible Further Work
+
+API Security, File upload limits/anti virus 
+react drag and dropfile upload, upload status
+
+
+
+
+
+
