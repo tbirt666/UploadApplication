@@ -1,0 +1,20 @@
+
+Setup WebAPI Solution with Test project and .gitignore
+
+create git repository
+
+create models (ContactUpload, Contact, Address?)
+
+- ContactUpload fields all set as text for inport before validation/sanitisation/mapping
+
+create Upload controller (POST) for file upload
+create services, repository (Contact, Upload)
+
+create frontend react app
+create react contact component for file upload form
+
+
+
+config settings
+
+Upload directory currently: E:\Dev\UploadApplication\UploadApplication\App_Data\Uploads in web.config 
